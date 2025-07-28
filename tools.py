@@ -567,7 +567,7 @@ async def update_progress_button(message, duration_str,chat):
             # Calculate progress bar (6 `─` with spaces)
             progress_length = 8
             position = min(int((elapsed_seconds / total_seconds) * progress_length), progress_length)
-            progress_bar = "─ " * position + "▷" + "─ " * (progress_length - position - 1)
+            progress_bar = "⭑" * position + "✪" + "⭑" * (progress_length - position - 1)
             progress_bar = progress_bar.strip()  # Remove trailing spaces
 
             progress_text = f"{elapsed_str} {progress_bar} {duration_str}"
