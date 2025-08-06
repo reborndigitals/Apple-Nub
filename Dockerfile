@@ -21,5 +21,4 @@ RUN echo '#!/bin/bash\nif [ -d ".git" ]; then\n  echo "Pulling latest changes...
 
 # Default command
 CMD ["./start.sh"]
-#render only
-RUN python keep_alive.py
+
