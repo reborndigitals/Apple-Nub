@@ -1,5 +1,5 @@
 {
-  "name": "CollageCrush",
+  "name": "applenub",
   "description": "🔥 Ultimate Telegram Voice Chat Music Bot with breathtaking streaming capabilities! Powered by cutting-edge latest Pyrogram (Kurigram) and next-gen PyTgCalls for lightning-fast performance. Experience crystal-clear HD audio/video streaming with stunning UI and advanced features that will revolutionize your group voice chats! ⚡✨",
   "logo": "https://raw.githubusercontent.com/nub-coders/nub-music-bot/refs/heads/main/music.jpg",
   "keywords": [
@@ -13,30 +13,35 @@
   ],
   "env": {
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": "10284859",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": "b0ad58eb8b845ba0003e0d9ce5fc2196",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "A Bot's token from Botfather",
-      "value": "8204653134:AAFLhxAIWEV937aucjUQP2T32W6DZsy8-QE",
-      "required": true
-    },
-    "OWNER_ID": {
-      "description": "Telegram user ID of the bot owner",
-      "value": "7888151947",
-      "required": true
-    },
-    "STRING_SESSION": {
-      "description": "A Pyrogram session string for the user account",
-      "value": "BQDMBnkAhl63LfVwI1-Pu38Cj_U5J1fg94CoUuYa8VcOfu6JcKTsMf6IjdKxGuJUmTyLcycSMFw4H_amfXQ-6B8q0DoT1uA7xM4nAxR8XBQvDkepomQoB9qF6fiTRTBMJjIXFfVgNUY_5JI9PK08mJ26whDradE6lMEPlvVcR4Jto3KdaLpvTPE45nmx5VeAUl_LAgy4o3VgOa9S0yKy8Ha8d0ueGa_A8goiXm52ADheVq2EOcCuu09e-kJixlMujIuDrqLFd4S_RLlfTSvvmYAF0eOu1b6jz1vOwFahGBQCOT_eucH26KQe-VUlWlT-ECD3LyRJIwezaSrYZADjw_aXMUqQaQAAAAHjb-HaAA",
-      "required": true
-    },
+        "description": "Get this value from https://my.telegram.org",
+        "value": "10284859",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "b0ad58eb8b845ba0003e0d9ce5fc2196",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "2096983652:AAHz41orhz9RrWscwg_WwSCp0_OhP-zLmDY",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id of user whom you would like to add as OWNER.",
+        "value": "1281282633",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
+        "value": "BQGJMTYAnMTEDXmgXzuptSLaeffcIr5AWGiw6J9jtZg94qowD2Y9tHBUaiWAIXtJr9PE2zDRaa5NWFPET5LXfEfxF8bOOdutrPcelB0sVdbQAThRjmyU_k1IhykbZI6vUlaQrFRqtD_p0uMPIXZqQoz8shZIIHkcbaMwN6Ee-x3xhYdTPEWFmSQGNoUEPFBSVPC0H4pN1Gc4XQaG1mApyMFhspCfs8txWLGaATqjskiVVSaH_Udc4-qTd6vT3h6UTdQcvrh76-j0RenbD5CttYWDlZe4uq9fT8SWMCQEMQKnMXD3LBROBq9GgDg8iuwPeGHd6jUriKFbWsaOiI0EZAMA3lu1GQAAAAHSHPeVAA",
+        "required": true
+      },
     "GROUP": {
       "description": "Your support group username without @",
       "value": "HeartBeat_Fam",
@@ -46,11 +51,6 @@
       "description": "Your updates channel username without @",
       "value": "HeartBeat_Offi",
       "required": false
-    },
-    "MONGODB_URI": {
-      "description": "MongoDB connection string URI for database",
-      "value": "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority",
-      "required": true
     },
     "LOGGER_ID": {
       "description": "chat id of the logger group",
